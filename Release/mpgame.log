@@ -1,0 +1,202 @@
+﻿Build started 11/19/2016 6:17:42 PM.
+     1>Project "C:\Users\zethr\Spring 2016\quake4\mpgame.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Release\mpgame.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W4 /WX- /Ox /Ob1 /Oi /Oy- /D NDEBUG /D _WINDOWS /D _FINAL /D GAME_DLL /D GAME_MPAPI /D Q4SDK /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _MBCS /GF /Gm- /EHsc /MT /GS- /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /GR /Yu /Fp".\Release\mpgame/mpgame.pch" /Fo".\Release\mpgame/" /Fd".\Release\mpgamex86.pdb" /Gd /TP /analyze- /errorReport:prompt mpgame\weapon\WeaponGrenadeLauncher.cpp mpgame\weapon\WeaponHyperblaster.cpp mpgame\weapon\WeaponMachinegun.cpp mpgame\weapon\WeaponNailgun.cpp mpgame\weapon\WeaponNapalmGun.cpp mpgame\weapon\WeaponRocketLauncher.cpp mpgame\weapon\WeaponShotgun.cpp
+         WeaponGrenadeLauncher.cpp
+     1>mpgame\weapon\WeaponGrenadeLauncher.cpp(1): warning C4627: '#include "../../idlib/precompiled.h"': skipped when looking for precompiled header use
+                 Add directive to 'precompiled header (.h) file' or rebuild precompiled header
+         WeaponHyperblaster.cpp
+     1>mpgame\weapon\WeaponHyperblaster.cpp(1): warning C4627: '#include "../../idlib/precompiled.h"': skipped when looking for precompiled header use
+                 Add directive to 'precompiled header (.h) file' or rebuild precompiled header
+         WeaponMachinegun.cpp
+     1>mpgame\weapon\WeaponMachinegun.cpp(1): warning C4627: '#include "../../idlib/precompiled.h"': skipped when looking for precompiled header use
+                 Add directive to 'precompiled header (.h) file' or rebuild precompiled header
+         WeaponNailgun.cpp
+     1>mpgame\weapon\WeaponNailgun.cpp(1): warning C4627: '#include "../../idlib/precompiled.h"': skipped when looking for precompiled header use
+                 Add directive to 'precompiled header (.h) file' or rebuild precompiled header
+         WeaponNapalmGun.cpp
+     1>mpgame\weapon\WeaponNapalmGun.cpp(1): warning C4627: '#include "../../idlib/precompiled.h"': skipped when looking for precompiled header use
+                 Add directive to 'precompiled header (.h) file' or rebuild precompiled header
+         WeaponRocketLauncher.cpp
+     1>mpgame\weapon\WeaponRocketLauncher.cpp(1): warning C4627: '#include "../../idlib/precompiled.h"': skipped when looking for precompiled header use
+                 Add directive to 'precompiled header (.h) file' or rebuild precompiled header
+         WeaponShotgun.cpp
+     1>mpgame\weapon\WeaponShotgun.cpp(1): warning C4627: '#include "../../idlib/precompiled.h"': skipped when looking for precompiled header use
+                 Add directive to 'precompiled header (.h) file' or rebuild precompiled header
+         Generating Code...
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release\mpgame.dll" /INCREMENTAL:NO /NOLOGO .\Release\idLib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\mpgame\mpgame.def" /MANIFEST /ManifestFile:".\Release\mpgame.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Release\mpgamex86.pdb" /MAP:".\Release\mpgamex86.map" /MAPINFO:EXPORTS /STACK:"4194304" /LARGEADDRESSAWARE /OPT:REF /OPT:ICF /TLBID:1 /BASE:"0x20000000" /DYNAMICBASE:NO /MACHINE:X86 /DLL .\Release\mpgame/Actor.obj
+         .\Release\mpgame/AF.obj
+         .\Release\mpgame/AFEntity.obj
+         .\Release\mpgame/BrittleFracture.obj
+         .\Release\mpgame/Camera.obj
+         .\Release\mpgame/Effect.obj
+         .\Release\mpgame/Entity.obj
+         .\Release\mpgame/Game_Debug.obj
+         .\Release\mpgame/Game_local.obj
+         .\Release\mpgame/Game_Log.obj
+         .\Release\mpgame/Game_network.obj
+         .\Release\mpgame/GameEdit.obj
+         .\Release\mpgame/Healing_Station.obj
+         .\Release\mpgame/Icon.obj
+         .\Release\mpgame/IconManager.obj
+         .\Release\mpgame/IK.obj
+         .\Release\mpgame/Instance.obj
+         .\Release\mpgame/Item.obj
+         .\Release\mpgame/Lagometer.obj
+         .\Release\mpgame/Light.obj
+         .\Release\mpgame/LipSync.obj
+         .\Release\mpgame/Misc.obj
+         .\Release\mpgame/Moveable.obj
+         .\Release\mpgame/Mover.obj
+         .\Release\mpgame/MultiplayerGame.obj
+         .\Release\mpgame/Playback.obj
+         .\Release\mpgame/Player_Cheats.obj
+         .\Release\mpgame/Projectile.obj
+         .\Release\mpgame/Pvs.obj
+         .\Release\mpgame/SecurityCamera.obj
+         .\Release\mpgame/Sound.obj
+         .\Release\mpgame/SplineMover.obj
+         .\Release\mpgame/Target.obj
+         .\Release\mpgame/TramGate.obj
+         .\Release\mpgame/Trigger.obj
+         .\Release\mpgame/WorldSpawn.obj
+         .\Release\mpgame/AAS.obj
+         .\Release\mpgame/AAS_debug.obj
+         .\Release\mpgame/AAS_Find.obj
+         .\Release\mpgame/AAS_pathing.obj
+         .\Release\mpgame/AAS_routing.obj
+         .\Release\mpgame/AAS_tactical.obj
+         .\Release\mpgame/AI.obj
+         .\Release\mpgame/AI_Actions.obj
+         .\Release\mpgame/AI_Announcements.obj
+         .\Release\mpgame/AI_Debug.obj
+         .\Release\mpgame/AI_events.obj
+         .\Release\mpgame/AI_Manager.obj
+         .\Release\mpgame/AI_Medic.obj
+         .\Release\mpgame/AI_Move.obj
+         .\Release\mpgame/AI_pathing.obj
+         .\Release\mpgame/AI_States.obj
+         .\Release\mpgame/AI_Tactical.obj
+         .\Release\mpgame/AI_Util.obj
+         .\Release\mpgame/Monster_Berserker.obj
+         .\Release\mpgame/Monster_BossBuddy.obj
+         .\Release\mpgame/Monster_BossMakron.obj
+         .\Release\mpgame/Monster_ConvoyGround.obj
+         .\Release\mpgame/Monster_ConvoyHover.obj
+         .\Release\mpgame/Monster_FailedTransfer.obj
+         .\Release\mpgame/Monster_Fatty.obj
+         .\Release\mpgame/Monster_Gladiator.obj
+         .\Release\mpgame/Monster_Grunt.obj
+         .\Release\mpgame/Monster_Gunner.obj
+         .\Release\mpgame/Monster_Harvester.obj
+         .\Release\mpgame/Monster_HarvesterDispersal.obj
+         .\Release\mpgame/Monster_HeavyHoverTank.obj
+         .\Release\mpgame/Monster_IronMaiden.obj
+         .\Release\mpgame/Monster_LightTank.obj
+         .\Release\mpgame/Monster_NetworkGuardian.obj
+         .\Release\mpgame/Monster_RepairBot.obj
+         .\Release\mpgame/Monster_Scientist.obj
+         .\Release\mpgame/Monster_Sentry.obj
+         .\Release\mpgame/Monster_SlimyTransfer.obj
+         .\Release\mpgame/Monster_StreamProtector.obj
+         .\Release\mpgame/Monster_StroggFlyer.obj
+         .\Release\mpgame/Monster_StroggHover.obj
+         .\Release\mpgame/Monster_StroggMarine.obj
+         .\Release\mpgame/Monster_TeleportDropper.obj
+         .\Release\mpgame/Monster_Turret.obj
+         .\Release\mpgame/Monster_TurretFlying.obj
+         .\Release\mpgame/spawner.obj
+         .\Release\mpgame/VehicleAI.obj
+         .\Release\mpgame/ClientAFEntity.obj
+         .\Release\mpgame/ClientEffect.obj
+         .\Release\mpgame/ClientEntity.obj
+         .\Release\mpgame/ClientModel.obj
+         .\Release\mpgame/ClientMoveable.obj
+         .\Release\mpgame/Class.obj
+         .\Release\mpgame/DebugGraph.obj
+         .\Release\mpgame/Event.obj
+         .\Release\mpgame/SaveGame.obj
+         .\Release\mpgame/State.obj
+         .\Release\mpgame/SysCmds.obj
+         .\Release\mpgame/SysCvar.obj
+         .\Release\mpgame/Clip.obj
+         .\Release\mpgame/Force.obj
+         .\Release\mpgame/Force_Constant.obj
+         .\Release\mpgame/Force_Drag.obj
+         .\Release\mpgame/Force_Field.obj
+         .\Release\mpgame/Force_Spring.obj
+         .\Release\mpgame/Physics.obj
+         .\Release\mpgame/Physics_Actor.obj
+         .\Release\mpgame/Physics_AF.obj
+         .\Release\mpgame/Physics_Base.obj
+         .\Release\mpgame/Physics_Monster.obj
+         .\Release\mpgame/Physics_Parametric.obj
+         .\Release\mpgame/Physics_Particle.obj
+         .\Release\mpgame/Physics_Player.obj
+         .\Release\mpgame/Physics_RigidBody.obj
+         .\Release\mpgame/Physics_Static.obj
+         .\Release\mpgame/Physics_StaticMulti.obj
+         .\Release\mpgame/Physics_VehicleMonster.obj
+         .\Release\mpgame/Push.obj
+         .\Release\mpgame/Player.obj
+         .\Release\mpgame/Player_States.obj
+         .\Release\mpgame/PlayerView.obj
+         .\Release\mpgame/Script_Compiler.obj
+         .\Release\mpgame/Script_Interpreter.obj
+         .\Release\mpgame/Script_Program.obj
+         .\Release\mpgame/Script_Thread.obj
+         .\Release\mpgame/ScriptFuncUtility.obj
+         .\Release\mpgame/Vehicle.obj
+         .\Release\mpgame/Vehicle_DropPod.obj
+         .\Release\mpgame/Vehicle_Walker.obj
+         .\Release\mpgame/VehicleAnimated.obj
+         .\Release\mpgame/VehicleController.obj
+         .\Release\mpgame/VehicleDriver.obj
+         .\Release\mpgame/VehicleMonster.obj
+         .\Release\mpgame/VehicleParts.obj
+         .\Release\mpgame/VehiclePosition.obj
+         .\Release\mpgame/VehicleRigid.obj
+         .\Release\mpgame/VehicleSpline.obj
+         .\Release\mpgame/VehicleStatic.obj
+         .\Release\mpgame/Weapon.obj
+         .\Release\mpgame/WeaponBlaster.obj
+         .\Release\mpgame/WeaponDarkMatterGun.obj
+         .\Release\mpgame/WeaponGauntlet.obj
+         .\Release\mpgame/WeaponGrenadeLauncher.obj
+         .\Release\mpgame/WeaponHyperblaster.obj
+         .\Release\mpgame/WeaponLightningGun.obj
+         .\Release\mpgame/WeaponMachinegun.obj
+         .\Release\mpgame/WeaponNailgun.obj
+         .\Release\mpgame/WeaponNapalmGun.obj
+         .\Release\mpgame/WeaponRailgun.obj
+         .\Release\mpgame/WeaponRocketLauncher.obj
+         .\Release\mpgame/WeaponShotgun.obj
+         .\Release\mpgame/Buying.obj
+         .\Release\mpgame/CTF.obj
+         .\Release\mpgame/GameState.obj
+         .\Release\mpgame/Tourney.obj
+         .\Release\mpgame/VoiceComms.obj
+         .\Release\mpgame/StatEvent.obj
+         .\Release\mpgame/StatManager.obj
+         .\Release\mpgame/StatWindow.obj
+         .\Release\mpgame/Anim.obj
+         .\Release\mpgame/Anim_Blend.obj
+         .\Release\mpgame/Anim_Import.obj
+         .\Release\mpgame/Anim_Testmodel.obj
+         "C:\Users\zethr\Spring 2016\quake4\Release\idlib.lib" /MACHINE:I386 /fixed:no 
+            Creating library .\Release\mpgame.lib and object .\Release\mpgame.exp
+         mpgame.vcxproj -> C:\Users\zethr\Spring 2016\quake4\.\Release\mpgame.dll
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:".\Release\mpgame.dll;#2" /manifest .\Release\mpgame.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file ".\Release\mpgame.unsuccessfulbuild".
+         Touching ".\Release\mpgame.lastbuildstate".
+     1>Done Building Project "C:\Users\zethr\Spring 2016\quake4\mpgame.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:15.02
